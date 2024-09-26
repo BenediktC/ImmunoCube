@@ -9,15 +9,12 @@ from typing import Self, List, Dict, Set
 class ProfileFactory(object):
     
     '''
-    Sketch of ProfileFactory, ToDo
+    Sketch of ProfileFactory
     '''
     
-    SumProfile = SumProfile
-    FractionProfile = FractionProfile
-    ReferenceProfile = ReferenceProfile
-    StatProfile = StatProfile
+    # Reference to ProfileClasses
     
     # def csv pipeline
     def create_fraction_profiles_with_csv(file: str, profile) -> FractionProfile:
-        # ToDo later
+        # ToDo
         pass
